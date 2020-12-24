@@ -1,0 +1,120 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+<!DOCTYPE html>
+ <html>
+   <head>
+     <title>TeaTime</title>
+     <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+   </head>
+   <body>
+     <header id = "header">
+       <img src= "https://image.freepik.com/free-vector/cute-rabbit-unicorn-drinking-bubble-tea-boba-logo-cartoon-hand-draw_19875-231.jpg" id ="header-img">
+       <h1 id = "header-h1">TeaTime</h1>
+       
+       <nav id = "nav-bar">
+         <ul>
+           <li><a class="nav-link" href = "#intro">Intro</a></li>
+           <li><a class="nav-link" href = "#menu">Menu</a></li>
+           <li><a class="nav-link" href = "#signup">Sign Up</a></li>
+           <li><a class="nav-link" href = "#howto">How To</a></li>
+         </ul>
+       </nav>
+     </header>
+     <main>
+       <section id = "intro">
+         <h2 id="intro-h2">Welcome to TeaTime!</h2>
+         <hr>
+         <p></p>
+       </section>
+       <section id = "menu">
+         <h2>Menu</h2>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593102796839-72BOGWVPAD2HNG0UM7AW/ke17ZwdGBToddI8pDm48kEYxshGnJktL0mvHVf_FAulZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-tfygtYAFcc83BjhbNZGquNGUj1AsqtyIpqxyOisA_SdA/Black+Tea_Classic+grid.jpg?format=1000w" class = "menu-img">
+           <figcaption>BLACK/GREEN/OOLONG TEA</figcaption>
+         </figure>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593102783411-G86AV67OHKTQM75HXN2A/ke17ZwdGBToddI8pDm48kEYxshGnJktL0mvHVf_FAulZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-tfygtYAFcc83BjhbNZGquNGUj1AsqtyIpqxyOisA_SdA/Longan+Jujube_Classic+grid.jpg?format=1000w" class = "menu-img">
+           <figcaption>LONGAN JUJUBE TEA</figcaption>
+         </figure>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593102807719-GHPZQJCJDPP2BQ2FAJM8/ke17ZwdGBToddI8pDm48kEYxshGnJktL0mvHVf_FAulZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-tfygtYAFcc83BjhbNZGquNGUj1AsqtyIpqxyOisA_SdA/Honey+Green+Tea_Classic+grid.jpg?format=1000w" class = "menu-img">
+           <figcaption>HONEY TEA</figcaption>
+         </figure>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593102852427-PFHJ68CMPBUHO8YERSAS/ke17ZwdGBToddI8pDm48kEYxshGnJktL0mvHVf_FAulZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-tfygtYAFcc83BjhbNZGquNGUj1AsqtyIpqxyOisA_SdA/Honey+Green+Tea_Classic+grid.jpg?format=1000w" class = "menu-img">
+           <figcaption>WINTER MELON GREEN TEA</figcaption>
+         </figure>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593195547159-DVJB3JJGU2MTCCTNDPPH/ke17ZwdGBToddI8pDm48kJoF7oE-R5zoynf8skoOQ-tZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-sjb0jyZmNT2bGmyT8o4MMXPUCvVrQiQ-0E10onHgZ0ZA/image-asset.jpeg?format=500w" class = "menu-img">
+           <figcaption>ROSEHIP MILK TEA</figcaption>
+         </figure>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593196519121-6JKN44LOTK7XLMRYFLSY/ke17ZwdGBToddI8pDm48kJoF7oE-R5zoynf8skoOQ-tZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-sjb0jyZmNT2bGmyT8o4MMXPUCvVrQiQ-0E10onHgZ0ZA/image-asset.jpeg?format=500w" class = "menu-img">
+           <figcaption>THAI MILK TEA</figcaption>
+         </figure>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593195528554-N2YTQS5Y3Z0FK6QHMJSI/ke17ZwdGBToddI8pDm48kJoF7oE-R5zoynf8skoOQ-tZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-sjb0jyZmNT2bGmyT8o4MMXPUCvVrQiQ-0E10onHgZ0ZA/Coffee_Milk+Tea.jpg?format=500w" class = "menu-img">
+           <figcaption>COFFEE MILK TEA</figcaption>
+         </figure>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593196528291-CP0QA4WOC8MY1WJ3N4JH/ke17ZwdGBToddI8pDm48kJoF7oE-R5zoynf8skoOQ-tZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-sjb0jyZmNT2bGmyT8o4MMXPUCvVrQiQ-0E10onHgZ0ZA/image-asset.jpeg?format=500w" class = "menu-img">
+           <figcaption>TARO MILK/MILK GREEN TEA</figcaption>
+         </figure>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593114942347-XWP8E1E6GJ81CDLT1848/ke17ZwdGBToddI8pDm48kFVhUWlhfBZytg_4MVeN6PdZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-vYVXuJRp-5RalJvqidcrOD2IPdqK4HaYA1g6f2-aJWsw/Grapefruit+Green+Tea_Punch.jpg?format=500w" class = "menu-img">
+           <figcaption>GRAPEFRUIT GREEN TEA</figcaption>
+         </figure>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593114953865-FM8Q8UYEIW1LMH6R06W4/ke17ZwdGBToddI8pDm48kFVhUWlhfBZytg_4MVeN6PdZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-vYVXuJRp-5RalJvqidcrOD2IPdqK4HaYA1g6f2-aJWsw/image-asset.jpeg?format=500w" class = "menu-img">
+           <figcaption>LYCHEE PUNCH</figcaption>
+         </figure>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593115236554-RHARIQ0LKEKXCMJC9UK5/ke17ZwdGBToddI8pDm48kFVhUWlhfBZytg_4MVeN6PdZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-vYVXuJRp-5RalJvqidcrOD2IPdqK4HaYA1g6f2-aJWsw/image-asset.jpeg?format=500w" class = "menu-img">
+           <figcaption>SUNSHINE PINEAPPLE TEA</figcaption>
+         </figure>
+         <figure>
+           <img src = "https://images.squarespace-cdn.com/content/v1/578d4c7a8419c227c750b539/1593115292114-1F31OE7XRHEOU7R8BBEP/ke17ZwdGBToddI8pDm48kFVhUWlhfBZytg_4MVeN6PdZw-zPPgdn4jUwVcJE1ZvWhcwhEtWJXoshNdA9f1qD7Xj1nVWs2aaTtWBneO2WM-vYVXuJRp-5RalJvqidcrOD2IPdqK4HaYA1g6f2-aJWsw/image-asset.jpeg?format=500w" class = "menu-img">
+           <figcaption>STRAWBERRY LEMONADE</figcaption>
+         </figure>
+       </section>
+       <section id = "signup">
+         <hr>
+         <h2>Sign Up</h2>
+         <p>Join our mailing list! </p>
+         <p>We will keep you updated on new drinks, discounts, holiday sales, and other fun events.</p>
+         <form id = "form" action="https://www.freecodecamp.com/email-submit">
+           <label for="email">Email:</label>
+           <input type="email" id = "email" placeholder = "Enter your email address" name="email">
+           <input type="submit" id = "submit">
+         </form>
+       </section>
+       <section id = "howto">
+         <hr>
+         <h2>How to make your own!</h2>
+         <div id = "howtodiv">
+           <iframe src= "https://www.youtube.com/watch?v=xebewT6lh2k" id = "video" width = 450px></iframe>
+           <img src = "https://i.pinimg.com/originals/c9/84/27/c9842781c517ea9d7393cd0d4cf818d6.jpg" class = "howtoimage">
+           <img src = "https://images.kitchenstories.io/wagtailOriginalImages/A729_bubbletea_make_your_own_EN.png" class = "howtoimage">
+             
+         </div>
+       </section>
+     </main>
+     <footer>
+       <p><b>TeaTime</b></p>
+       <div id="follow">
+         <p>Follow us:</p>
+         <img src = "https://thumbs.dreamstime.com/b/set-most-popular-social-media-logos-white-background-facebook-instagram-twitter-youtube-telegram-186677161.jpg" id = "footer-img">
+       </div>
+     </footer>
+   </body>
+</html>

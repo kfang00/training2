@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+}
+
+#header {
+  position: fixed;
+  display: flex;
+  background-color: #FFD64B;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  height: 92px;
+  width: 100%;
+  top: 0;
+  z-index: 3;
+}
+
+#header-h1 {
+  font-size: 40px;
+  padding: 0px 5px 5px 15px;
+}
+
+#header-img {
+  width: 130px;
+  height: 130px;
+  border: 5px solid #FFD64B;
+  border-radius: 50%;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: flex-end;
+}
+
+#nav-bar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-link {
+  display: box;
+  text-decoration: none;
+  padding: 15px 30px 15px 30px;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.nav-link:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
+
+@keyframes background-color {
+  100% {
+    background-color: pink;
+  }
+}
+
+main {
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: pacifico, cursive;
+  color: #83541F;
+  margin-top: 13px;
+  font-size: 27px;
+}
+
+#intro-h2 {
+  font-size: 37px;
+}
+  
+#menu {
+  display: grid;
+  grid-template-areas:
+  "header header header header"
+  "figure figure figure figure"
+  "figure figure figure figure"
+  "figure figure figure figure";
+  justify-content: space-evenly;
+}
+
+@media (max-width: 1150px) {
+  #menu {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "figure figure figure"
+    "figure figure figure"
+    "figure figure figure";
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 850px) {
+  #menu {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "figure figure"
+    "figure figure"
+    "figure figure";
+    justify-content: space-evenly;
+  }
+}
+
+#menu h2 {
+  grid-area: header;
+}
+
+#menu figcaption{
+  color: #3F9189;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.menu-img {
+  height: 300px;
+  background-color:pink;
+}
+
+.menu-img:hover {
+  opacity: 0.5;
+  z-index: 2;
+}
+
+#signup {
+  text-align: center;
+  padding: 15px;
+}
+
+#howtodiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#video {
+  padding: 15px;
+}
+
+.howtoimage {
+  height: 330px;
+}
+
+footer {
+  background-color: #AAD4D0;
+  width: 90%;
+  margin: auto;
+  padding: 1px;
+
+}
+
+footer p {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+#follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-img {
+  height: 40px;
+}
+
+hr {
+  border-top: 3px solid #AAD4D0;
+}
