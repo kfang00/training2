@@ -1,0 +1,10 @@
+const JSX = 
+<div>
+    <h1>All About Me</h1>
+    <p>This is a page dedicated to information about me.  Here are some fun facts:</p>
+    <ul>
+        <li>I am a freshman in college</li>
+        <li>I enjoy journalling</li>
+        <li>I want to have a dog</li>
+    </ul>
+</div>;
